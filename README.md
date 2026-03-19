@@ -38,23 +38,26 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
 
 ## Padrão das resenhas
 
-As resenhas seguem a estrutura definida no template do projeto:
+As resenhas seguem o modelo padronizado do projeto, inspirado no formato adotado nos PDFs do repositório.
 
-1. Título do artigo e ano
-2. Referência bibliográfica
-3. Ideia central
-4. Principais pontos
-5. Aplicação prática imaginada
-6. Conclusão
+Cada resenha deve conter:
 
-Esse padrão ajuda a manter consistência entre os textos e facilita a leitura no repositório.
+1. **Título principal** no formato `Resenha: {Título do artigo}`
+2. **Subtítulo** com síntese do tema ou do enfoque do texto
+3. **Referência bibliográfica completa**
+4. **Introdução**
+5. **Síntese das ideias principais**, organizada em subtópicos numerados quando necessário
+6. **Aplicação prática imaginada**
+7. **Conclusão**
+
+Esse padrão ajuda a manter consistência visual e textual entre os arquivos em `.md`, `.pdf` e `.docx`, além de facilitar a leitura e a organização do repositório.
 
 ## Como adicionar uma nova resenha
 
 1. Criar uma nova pasta dentro de `resenhas/`.
 2. Usar `templates/TEMPLATE_RESENHAS.md` como base.
 3. Salvar a versão em Markdown.
-4. Gerar a versão final em PDF ou DOCX, conforme a proposta da atividade.
+4. Gerar a versão final em PDF
 5. Atualizar este README com a nova entrada, quando necessário.
 
 ## Observações
