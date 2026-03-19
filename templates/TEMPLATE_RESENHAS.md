@@ -1,25 +1,31 @@
+# Resenha: {Título do Artigo} ({Sobrenome do(s) autor(es)})
+{Subtítulo descritivo do texto em uma linha}
 
----
+{REFERÊNCIA BIBLIOGRÁFICA COMPLETA DO ARTIGO}
 
-## `templates/TEMPLATE_RESENHA.md`
+## 1. Introdução
+(1 parágrafo apresentando o tema do artigo, o problema discutido e a tese central do autor)
 
-```md
-# {Título do Artigo} ({Ano}) — Resenha
+## 2. Síntese das ideias principais
+(1 parágrafo curto resumindo como o artigo organiza o argumento ou o tema)
 
-## Referência
-Autor(es). **Título**. Evento/Revista/Local, ano.  
-Link (se houver): {link}
+### 2.1 {Primeiro ponto principal}
+(1 parágrafo explicando a primeira ideia relevante)
 
-## Ideia central
-(4–8 linhas com a tese do texto e o problema que ele resolve/explica)
+### 2.2 {Segundo ponto principal}
+(1 parágrafo explicando a segunda ideia relevante)
 
-## Principais pontos
-- (ponto 1)
-- (ponto 2)
-- (ponto 3)
+### 2.3 {Terceiro ponto principal}
+(1 parágrafo explicando a terceira ideia relevante)
 
-## Aplicação prática imaginada
-(um cenário realista: como isso aparece em projeto real + como você aplicaria)
+### 2.4 {Quarto ponto principal}
+(1 parágrafo explicando um limite, nuance ou cuidado importante do texto)
 
-## Conclusão
-(1 parágrafo com: o que você aprendeu + impacto + limitações ou cuidados)
+### 2.5 {Quinto ponto principal}
+(1 parágrafo explicando consequências práticas, trade-offs ou implicações)
+
+## 3. Aplicação imaginada dos conceitos
+(1 ou 2 parágrafos mostrando como as ideias do artigo apareceriam em um projeto real e como poderiam ser aplicadas)
+
+## 4. Conclusão
+(1 parágrafo final com o aprendizado principal, o impacto do texto e eventuais limitações ou cuidados)
