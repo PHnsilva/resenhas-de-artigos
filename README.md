@@ -31,9 +31,12 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
    ├─ No-Silver-Bullet-Essence-and-Accidents-of-Software-Engineering/
    │  ├─ resenha_no_silver_bullet.md
    │  └─ resenha_no_silver_bullet.pdf
-   └─ criteria-for-modularization/
-      ├─ resenha_criteria_for_modularization.md
-      └─ resenha_criteria_for_modularization.docx
+   ├─ criteria-for-modularization/
+   │  ├─ resenha_criteria_for_modularization.md
+   │  └─ resenha_criteria_for_modularization.docx
+   └─ facade/
+      ├─ resenha_facade.md
+      └─ resenha_facade.pdf
 ```
 
 ## Padrão das resenhas
