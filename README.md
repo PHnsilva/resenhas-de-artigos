@@ -34,9 +34,12 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
    ├─ criteria-for-modularization/
    │  ├─ resenha_criteria_for_modularization.md
    │  └─ resenha_criteria_for_modularization.docx
-   └─ facade/
-      ├─ resenha_facade.md
-      └─ resenha_facade.pdf
+   ├─ facade/
+   │  ├─ resenha_facade.md
+   │  └─ resenha_facade.pdf
+   └─ mcp-landscape-security-threats-future-research-directions/
+     └─ resenha_mcp_landscape_security_threats_future_research.pdf
+     └─ resenha_mcp_landscape_security_threats_future_research.md
 ```
 
 ## Padrão das resenhas
