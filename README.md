@@ -25,21 +25,29 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
    ├─ 1997-big-ball-of-mud/
    │  ├─ resenha_big_ball_of_mud.md
    │  └─ resenha_big_ball_of_mud.pdf
-   ├─ microservicos-martin-fowler/
-   │  ├─ resenha_microservicos.md
-   │  └─ resenha_microservicos.pdf
-   ├─ No-Silver-Bullet-Essence-and-Accidents-of-Software-Engineering/
-   │  ├─ resenha_no_silver_bullet.md
-   │  └─ resenha_no_silver_bullet.pdf
    ├─ criteria-for-modularization/
    │  ├─ resenha_criteria_for_modularization.md
    │  └─ resenha_criteria_for_modularization.docx
    ├─ facade/
    │  ├─ resenha_facade.md
    │  └─ resenha_facade.pdf
-   └─ mcp-landscape-security-threats-future-research-directions/
-     └─ resenha_mcp_landscape_security_threats_future_research.pdf
-     └─ resenha_mcp_landscape_security_threats_future_research.md
+   ├─ microservicos-martin-fowler/
+   │  ├─ resenha_microservicos.md
+   │  └─ resenha_microservicos.pdf
+   ├─ No-Silver-Bullet-Essence-and-Accidents-of-Software-Engineering/
+   │  ├─ resenha_no_silver_bullet.md
+   │  └─ resenha_no_silver_bullet.pdf
+   ├─ mcp-landscape-security-threats-future-research-directions/
+   │  ├─ resenha_mcp_landscape_security_threats_future_research.md
+   │  └─ resenha_mcp_landscape_security_threats_future_research.pdf
+   ├─ hexagonal-architecture/
+   │  ├─ resenha_hexagonal_architecture.md
+   │  ├─ resenha_hexagonal_architecture.docx
+   │  └─ resenha_hexagonal_architecture.pdf
+   └─ software-architecture-a-roadmap/
+      ├─ resenha_software_architecture_roadmap.md
+      ├─ resenha_software_architecture_roadmap.docx
+      └─ resenha_software_architecture_roadmap.pdf
 ```
 
 ## Padrão das resenhas
