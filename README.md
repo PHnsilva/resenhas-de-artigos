@@ -26,28 +26,32 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
    │  ├─ resenha_big_ball_of_mud.md
    │  └─ resenha_big_ball_of_mud.pdf
    ├─ criteria-for-modularization/
-   │  ├─ resenha_criteria_for_modularization.md
-   │  └─ resenha_criteria_for_modularization.docx
+   │  ├─ criteria_for_modularization.md
+   │  └─ criteria_for_modularization.pdf
+   ├─ design-by-contract/
+   │  ├─ resenha_design_by_contract.md
+   │  └─ resenha_design_by_contract.pdf
    ├─ facade/
    │  ├─ resenha_facade.md
    │  └─ resenha_facade.pdf
+   ├─ hexagonal-architecture/
+   │  ├─ resenha_hexagonal_architecture.md
+   │  └─ resenha_hexagonal_architecture.pdf
    ├─ microservicos-martin-fowler/
    │  ├─ resenha_microservicos.md
    │  └─ resenha_microservicos.pdf
    ├─ No-Silver-Bullet-Essence-and-Accidents-of-Software-Engineering/
    │  ├─ resenha_no_silver_bullet.md
    │  └─ resenha_no_silver_bullet.pdf
-   ├─ mcp-landscape-security-threats-future-research-directions/
+   ├─ object-constraint-language-definitive-guide/
+   │  ├─ resenha_object_constraint_language.md
+   │  └─ resenha_object_constraint_language.pdf
+   ├─ resenha_mcp_landscape_security_threats_future_research/
    │  ├─ resenha_mcp_landscape_security_threats_future_research.md
    │  └─ resenha_mcp_landscape_security_threats_future_research.pdf
-   ├─ hexagonal-architecture/
-   │  ├─ resenha_hexagonal_architecture.md
-   │  ├─ resenha_hexagonal_architecture.docx
-   │  └─ resenha_hexagonal_architecture.pdf
    └─ software-architecture-a-roadmap/
-      ├─ resenha_software_architecture_roadmap.md
-      ├─ resenha_software_architecture_roadmap.docx
-      └─ resenha_software_architecture_roadmap.pdf
+      ├─ resenha_software_architecture_a_roadmap.md
+      └─ resenha_software_architecture_a_roadmap.pdf
 ```
 
 ## Padrão das resenhas
@@ -71,7 +75,7 @@ Esse padrão ajuda a manter consistência visual e textual entre os arquivos em 
 1. Criar uma nova pasta dentro de `resenhas/`.
 2. Usar `templates/TEMPLATE_RESENHAS.md` como base.
 3. Salvar a versão em Markdown.
-4. Gerar a versão final em PDF
+4. Gerar a versão final em PDF.
 5. Atualizar este README com a nova entrada, quando necessário.
 
 ## Observações
