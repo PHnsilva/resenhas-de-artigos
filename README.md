@@ -50,8 +50,8 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
    │  ├─ resenha_mcp_landscape_security_threats_future_research.md
    │  └─ resenha_mcp_landscape_security_threats_future_research.pdf
    └─ software-architecture-a-roadmap/
-      ├─ resenha_software_architecture_a_roadmap.md
-      └─ resenha_software_architecture_a_roadmap.pdf
+      ├─ resenha_software_architecture_roadmap.md
+      └─ resenha_software_architecture_roadmap.pdf
 ```
 
 ## Padrão das resenhas
@@ -70,16 +70,25 @@ Cada resenha deve conter:
 
 Esse padrão ajuda a manter consistência visual e textual entre os arquivos em `.md`, `.pdf` e `.docx`, além de facilitar a leitura e a organização do repositório.
 
+## Consulta do acervo
+
+Abra [resenhas/](resenhas/) para acessar os pares Markdown/PDF e use o [template](templates/TEMPLATE_RESENHAS.md) como referência. O repositório contém documentos, sem aplicação, dependências ou comando de build automatizado para os PDFs.
+
 ## Como adicionar uma nova resenha
 
 1. Criar uma nova pasta dentro de `resenhas/`.
 2. Usar `templates/TEMPLATE_RESENHAS.md` como base.
 3. Salvar a versão em Markdown.
 4. Gerar a versão final em PDF.
-5. Atualizar este README com a nova entrada, quando necessário.
+5. Conferir nomes, links e legibilidade do PDF.
+6. Atualizar este README com a nova entrada e abrir um pull request.
 
 ## Observações
 
 - O repositório prioriza organização, legibilidade e padronização.
 - A estrutura foi pensada para facilitar versionamento e consulta futura.
 - Sempre que possível, mantenha os nomes de arquivos curtos, consistentes e sem ambiguidade.
+
+## Autoria e licença
+
+As referências bibliográficas dos textos resenhados estão em cada documento. Não há arquivo de licença no repositório. Os artigos citados mantêm seus próprios direitos e condições de uso.
