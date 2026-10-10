@@ -2,11 +2,15 @@
 
 **Arquitetura acidental, forças do mundo real e estratégias para evoluir sistemas legados**
 
-FOOTE, Brian; YODER, Joseph. *Big Ball of Mud*. PLoP/EuroPLoP, 1997 (manuscrito revisado em 06 jun. 1999).
+## Referência
+
+FOOTE, Brian; YODER, Joseph. **Big Ball of Mud**. PLoP/EuroPLoP 1997, Technical Report WUCS-97-34. Versão de 26 jun. 1999. Publicado também em *Pattern Languages of Program Design 4*, cap. 29, 2000.
+
+[Fonte 1](https://www.laputan.org/mud/). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 
-Foote e Yoder analisam um fenômeno recorrente em projetos de software: a tendência de muitos sistemas acabarem se tornando uma “Big Ball of Mud”, isto é, um conjunto de código e dados com estrutura fraca, alto acoplamento e evolução baseada em remendos. Em vez de tratar esse resultado apenas como falha técnica, os autores argumentam que ele surge como resposta a pressões concretas — prazo, custo, mudança de requisitos, aprendizado incompleto do domínio e necessidade de manter o sistema em operação.
+Foote e Yoder analisam um fenômeno recorrente em projetos de software: a tendência de muitos sistemas acabarem se tornando uma “Big Ball of Mud”, isto é, um conjunto de código e dados com estrutura fraca, alto acoplamento e evolução baseada em remendos. Em vez de tratar esse resultado apenas como falha técnica, os autores argumentam que ele surge como resposta a pressões concretas, prazo, custo, mudança de requisitos, aprendizado incompleto do domínio e necessidade de manter o sistema em operação.
 
 ## 2. Síntese das ideias principais
 

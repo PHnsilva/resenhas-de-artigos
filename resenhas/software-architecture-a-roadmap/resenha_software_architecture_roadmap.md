@@ -1,7 +1,12 @@
 # Resenha: Software Architecture: a Roadmap (Garlan)
+
 Panorama da maturidade da arquitetura de software e dos desafios impostos pela evolução tecnológica
 
-GARLAN, David. Software Architecture: a Roadmap. In: FINKELSTEIN, Anthony (ed.). The Future of Software Engineering. New York: ACM Press, 2000. Material consultado a partir do PDF fornecido pelo usuário.
+## Referência
+
+GARLAN, David. **Software Architecture: a Roadmap**. In: FINKELSTEIN, Anthony (ed.). *Proceedings of the Conference on The Future of Software Engineering*. New York: ACM Press, 2000. p. 91-101. DOI: [10.1145/336512.336537](https://doi.org/10.1145/336512.336537).
+
+[Fonte 1](https://www.cs.cmu.edu/~able/publications/roadmap2000/) | [Fonte 2](https://doi.org/10.1145/336512.336537). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 No artigo “Software Architecture: a Roadmap”, David Garlan apresenta a arquitetura de software como um campo que deixou de ser apenas prática intuitiva e passou a buscar bases mais explícitas de engenharia. O texto parte da ideia de que a arquitetura representa a estrutura global de um sistema e influencia diretamente atributos como desempenho, confiabilidade, portabilidade, escalabilidade e interoperabilidade. A tese central do autor é dupla: houve avanço considerável na consolidação da disciplina ao longo da década anterior, mas esse progresso ainda é insuficiente diante da complexidade crescente dos sistemas e das novas pressões tecnológicas que redefinem o papel da arquitetura.

@@ -1,8 +1,12 @@
 # Resenha: On the Criteria To Be Used in Decomposing Systems into Modules (Parnas)
+
 Modularização por ocultamento de informação e critérios para sistemas mais evolutivos
 
-PARNAS, D. L. **On the Criteria To Be Used in Decomposing Systems into Modules**. *Communications of the ACM*, v. 15, n. 12, p. 1053-1058, dez. 1972.  
-Link (se houver): PDF fornecido pelo usuário.
+## Referência
+
+PARNAS, David L. **On the Criteria To Be Used in Decomposing Systems into Modules**. *Communications of the ACM*, v. 15, n. 12, p. 1053-1058, dez. 1972. DOI: [10.1145/361598.361623](https://doi.org/10.1145/361598.361623).
+
+[Fonte 1](https://doi.org/10.1145/361598.361623). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 O artigo de David L. Parnas discute um problema que continua central em engenharia de software: como decompor um sistema em módulos realmente úteis para desenvolvimento, manutenção e evolução. A crítica do autor é dirigida à prática de dividir o sistema de acordo com as etapas visíveis do processamento, algo que parece natural em um primeiro momento, mas que frequentemente produz forte dependência entre partes diferentes do software. Como alternativa, Parnas propõe que a modularização seja guiada pelo ocultamento de informações, isto é, pela decisão de esconder em cada módulo uma escolha de projeto que possa mudar no futuro. A tese principal é que bons módulos não representam apenas passos de execução, mas fronteiras de conhecimento e responsabilidade, o que torna o sistema mais flexível, mais compreensível e menos frágil diante de mudanças.

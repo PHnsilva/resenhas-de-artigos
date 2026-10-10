@@ -1,8 +1,12 @@
 # Resenha: No Silver Bullet: Essence and Accidents of Software Engineering (Brooks)
+
 Complexidade essencial, ganhos graduais e os limites das promessas de revolução no desenvolvimento de software
 
-BROOKS JR., Frederick P. **No Silver Bullet: Essence and Accidents of Software Engineering**. *Computer*, v. 20, n. 4, p. 10-19, abr. 1987. DOI: 10.1109/MC.1987.1663532.  
-Link (se houver): PDF fornecido pelo usuário.
+## Referência
+
+BROOKS JR., Frederick P. **No Silver Bullet: Essence and Accidents of Software Engineering**. *Computer*, v. 20, n. 4, p. 10-19, abr. 1987. DOI: [10.1109/MC.1987.1663532](https://doi.org/10.1109/MC.1987.1663532).
+
+[Fonte 1](https://doi.org/10.1109/MC.1987.1663532) | [Fonte 2](https://api.crossref.org/works/10.1109/MC.1987.1663532). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 O artigo de Frederick P. Brooks Jr. discute uma questão central da engenharia de software: por que, apesar do avanço constante de linguagens, ferramentas e métodos, o desenvolvimento de sistemas continua difícil, caro e sujeito a falhas. A tese do autor é direta: não existe uma "bala de prata", isto é, nenhuma técnica isolada capaz de produzir, em pouco tempo, um ganho de dez vezes em produtividade, confiabilidade ou simplicidade. Brooks argumenta que a maior parte do desafio não vem apenas dos instrumentos usados para programar, mas da própria natureza do software. Projetar sistemas exige compreender domínios complexos, lidar com regras externas, adaptar-se a mudanças contínuas e manter coerência conceitual em estruturas invisíveis. Por isso, a evolução real da área ocorre de forma gradual, acumulando práticas, ferramentas e experiências que melhoram partes do processo sem eliminar o núcleo mais difícil do problema.

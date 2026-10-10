@@ -2,14 +2,18 @@
 
 Repositório dedicado ao armazenamento e à organização de resenhas acadêmicas e técnicas sobre arquitetura de software, engenharia de software e temas relacionados.
 
+## Estado do acervo
+
+As dez resenhas atuais estão finalizadas. O repositório permanece aberto a novas leituras e resenhas. Revisões e acréscimos devem preservar a autoria e identificar as fontes consultadas.
+
 ## Objetivo
 
-Este repositório reúne resenhas produzidas a partir de artigos clássicos e contemporâneos da área de computação.  
-A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pasta por artigo e os arquivos finais organizados por formato.
+Este repositório reúne resenhas de artigos, capítulos e textos técnicos da área de computação.
+O objetivo é manter um acervo consistente e fácil de navegar, com uma pasta por texto e os arquivos finais organizados por formato.
 
 ## Organização
 
-- Cada artigo possui uma pasta própria dentro de `resenhas/`.
+- Cada texto resenhado possui uma pasta própria dentro de `resenhas/`.
 - O nome da pasta deve identificar o texto resenhado de forma clara.
 - Os arquivos da resenha seguem, de preferência, o padrão `resenha_<slug>.<ext>`.
 - O template-base para novas resenhas fica em `templates/TEMPLATE_RESENHAS.md`.
@@ -19,6 +23,7 @@ A ideia é manter um acervo simples, consistente e fácil de navegar, com uma pa
 ```txt
 .
 ├─ README.md
+├─ REFERENCIAS.md
 ├─ templates/
 │  └─ TEMPLATE_RESENHAS.md
 └─ resenhas/
@@ -68,20 +73,20 @@ Cada resenha deve conter:
 6. **Aplicação prática imaginada**
 7. **Conclusão**
 
-Esse padrão ajuda a manter consistência visual e textual entre os arquivos em `.md`, `.pdf` e `.docx`, além de facilitar a leitura e a organização do repositório.
+Esse padrão ajuda a manter consistência visual e textual entre os arquivos em `.md` e `.pdf`, além de facilitar a leitura e a organização do repositório.
 
 ## Consulta do acervo
 
-Abra [resenhas/](resenhas/) para acessar os pares Markdown/PDF e use o [template](templates/TEMPLATE_RESENHAS.md) como referência. O repositório contém documentos, sem aplicação, dependências ou comando de build automatizado para os PDFs.
+Consulte o [catálogo de referências](REFERENCIAS.md) para localizar as fontes originais, conceitos e cuidados de aplicação. Abra [resenhas/](resenhas/) para acessar os pares Markdown/PDF e use o [template](templates/TEMPLATE_RESENHAS.md) como referência. O repositório contém documentos, sem aplicação, dependências ou comando de build automatizado para os PDFs.
 
 ## Como adicionar uma nova resenha
 
 1. Criar uma nova pasta dentro de `resenhas/`.
-2. Usar `templates/TEMPLATE_RESENHAS.md` como base.
+2. Usar `templates/TEMPLATE_RESENHAS.md` como base e conferir autoria, edição, data, DOI ou URL da fonte original.
 3. Salvar a versão em Markdown.
 4. Gerar a versão final em PDF.
 5. Conferir nomes, links e legibilidade do PDF.
-6. Atualizar este README com a nova entrada e abrir um pull request.
+6. Atualizar este README e `REFERENCIAS.md` com a nova entrada e abrir um pull request.
 
 ## Observações
 

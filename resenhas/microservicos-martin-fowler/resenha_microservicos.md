@@ -1,10 +1,16 @@
-# Microservices (2014) — Resenha
+# Resenha: Microservices (Lewis e Fowler)
 
 _Síntese crítica baseada no texto de James Lewis e Martin Fowler_
 
 ## Referência
 
-LEWIS, James; FOWLER, Martin. **Microservices**. ThoughtWorks / MartinFowler.com, 25 mar. 2014. Material consultado a partir do PDF fornecido pelo usuário, que também reúne notas complementares sobre o tema.
+LEWIS, James; FOWLER, Martin. **Microservices**. MartinFowler.com, 25 mar. 2014. Acesso em: 10 out. 2026.
+
+[Fonte 1](https://martinfowler.com/articles/microservices.html). Referências conferidas em 10 out. 2026.
+
+## 1. Introdução
+
+Lewis e Fowler descrevem características recorrentes de sistemas organizados em serviços independentes. A resenha examina os ganhos de autonomia e os custos de operar componentes distribuídos, usando a apresentação consolidada em março de 2014.
 
 ## 2. Síntese das ideias principais
 
@@ -34,6 +40,6 @@ O texto mostra que microserviços dependem fortemente de automação. Como exist
 
 Em um ambiente real de engenharia de software, esses conceitos podem ser aplicados, por exemplo, em uma plataforma corporativa de agendamentos, pagamentos e notificações. Em vez de concentrar tudo em uma única aplicação, a empresa poderia separar o sistema em serviços específicos, como agenda, autenticação, pagamentos, notificações e relatórios. Cada equipe ficaria responsável por um domínio claro, com liberdade para evoluir sua parte sem bloquear todo o restante do produto. Isso ajudaria especialmente em empresas que crescem rápido e precisam lançar melhorias frequentes, embora exigisse observabilidade, automação e cuidado com a comunicação entre os serviços para evitar aumento descontrolado da complexidade.
 
-## Conclusão
+## 4. Conclusão
 
 A leitura mostra que microserviços fazem mais sentido como estratégia de organização técnica e de times do que como simples moda arquitetural. O valor da abordagem aparece quando a empresa precisa ganhar independência entre equipes, acelerar entregas e sustentar evolução contínua sem travar o sistema inteiro a cada mudança. Ao mesmo tempo, o artigo é equilibrado ao lembrar que a descentralização cobra um preço: mais disciplina em automação, observabilidade, tolerância a falhas e gestão de dados distribuídos. Em um contexto profissional, a principal lição é que a arquitetura deve responder às necessidades do produto e da organização. Microserviços podem ser muito eficazes, mas só quando adotados com maturidade técnica, critérios claros e consciência dos custos envolvidos.
