@@ -1,7 +1,12 @@
 # Resenha: Facade (Refactoring.Guru)
+
 Simplificação do acesso a subsistemas complexos por meio de uma interface única e coesa
 
-**Referência:** REFACTORING.GURU. **Facade**. In: *Padrões de Projeto* — padrões estruturais. [S. l.]: Refactoring.Guru, 2014-2026. Material consultado a partir do PDF fornecido pelo usuário.
+## Referência
+
+REFACTORING.GURU. **Facade**. In: *Design Patterns*, Structural Patterns. [S. l.], [s. d.]. Acesso em: 10 out. 2026.
+
+[Fonte 1](https://refactoring.guru/design-patterns/facade). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 O texto sobre o padrão Facade apresenta um problema recorrente no desenvolvimento de software: a dificuldade de integrar código cliente a bibliotecas, frameworks ou módulos internos compostos por muitas classes, dependências e regras de uso. Quando a aplicação conversa diretamente com esse conjunto complexo de objetos, a lógica de negócio passa a depender demais de detalhes de implementação, o que aumenta o acoplamento e torna o sistema mais difícil de entender, manter e evoluir. A tese central do material é que uma fachada funciona como uma interface simplificada para esse subsistema, oferecendo apenas os recursos mais relevantes para o cliente e ocultando a complexidade operacional que existe por trás.

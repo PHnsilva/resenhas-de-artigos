@@ -1,7 +1,12 @@
 # Resenha: Design by Contract (Meyer)
+
 Contratos de software como base para confiabilidade, responsabilidades explícitas e herança segura
 
-**Referência:** MEYER, Bertrand. **Design by Contract**. In: *Advances in Object-Oriented Software Engineering*. [S. l.]: Prentice Hall, 1991. cap. 1, p. 1-50. Material consultado a partir do PDF fornecido pelo usuário.
+## Referência
+
+MEYER, Bertrand. **Design by Contract**. In: MANDRIOLI, Dino; MEYER, Bertrand (eds.). *Advances in Object-Oriented Software Engineering*. Prentice Hall, 1991. cap. 1, p. 1-50.
+
+[Fonte 1](https://se.inf.ethz.ch/~meyer/publications/old/dbc_chapter.pdf) | [Fonte 2](https://se.inf.ethz.ch/~meyer/publications/). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 O capítulo de Bertrand Meyer discute um problema central da engenharia de software: como construir sistemas corretos e robustos sem depender apenas de testes tardios ou de verificações defensivas espalhadas pelo código. A tese principal é que chamadas de rotinas devem ser tratadas como contratos entre cliente e fornecedor, nos quais cada parte possui obrigações e benefícios explícitos. A partir dessa metáfora, o autor organiza uma visão de projeto em que precondições, pós-condições e invariantes tornam visíveis as regras de uso de uma classe, permitindo distribuir responsabilidades, reduzir ambiguidades e aumentar a confiança na evolução de componentes reutilizáveis.

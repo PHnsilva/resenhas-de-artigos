@@ -1,7 +1,14 @@
 # Resenha: Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions (Hou et al.)
+
 Uma análise do MCP como padrão emergente para integrar modelos de IA a ferramentas externas com foco em arquitetura, segurança e governança.
 
-HOU, Xinyi; ZHAO, Yanjie; WANG, Shenao; WANG, Haoyu. *Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions*. ACM Transactions on Software Engineering and Methodology, 2026. DOI: 10.1145/3796519.
+## Referência
+
+HOU, Xinyi; ZHAO, Yanjie; WANG, Shenao; WANG, Haoyu. **Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions**. *ACM Transactions on Software Engineering and Methodology*, v. 35, n. 10, p. 1-37, 2026. DOI: [10.1145/3796519](https://doi.org/10.1145/3796519). Publicação online: 16 set. 2026.
+
+[Fonte 1](https://doi.org/10.1145/3796519) | [Fonte 2](https://arxiv.org/abs/2503.23278v3). Referências conferidas em 10 out. 2026.
+
+A versão de acesso aberto consultada é o preprint arXiv v3, de 7 out. 2025. A referência de periódico corresponde ao registro publicado em 2026; as edições são identificadas separadamente.
 
 ## 1. Introdução
 O artigo discute o Model Context Protocol (MCP) como uma proposta de padronização para a comunicação entre modelos de IA e ferramentas externas, buscando reduzir a fragmentação causada por integrações específicas, plugins isolados e adaptações manuais. Os autores defendem que o MCP não é apenas uma evolução do function calling, mas uma mudança de paradigma: em vez de cada aplicação acoplar suas próprias integrações, passa-se a ter um protocolo comum, com descoberta dinâmica de capacidades, comunicação bidirecional e maior potencial de interoperabilidade. A tese central do texto é que o MCP já desponta como infraestrutura importante para aplicações de IA orientadas a ferramentas, mas sua adoção segura depende de compreender melhor sua arquitetura, seu ciclo de vida e suas vulnerabilidades.

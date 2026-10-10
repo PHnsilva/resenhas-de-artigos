@@ -1,7 +1,12 @@
 # Resenha: The Hexagonal (Ports & Adapters) Architecture (Cockburn)
+
 Isolamento do núcleo da aplicação por portas, adaptadores e dependências tecnológicas substituíveis
 
-COCKBURN, Alistair. The Hexagonal (Ports & Adapters) Architecture. HaT Technical Report 2005.02, 4 set. 2005. Material consultado a partir do PDF fornecido pelo usuário.
+## Referência
+
+COCKBURN, Alistair. **The Hexagonal (Ports & Adapters) Architecture**. HaT Technical Report 2005.02, versão 0.9, 4 set. 2005.
+
+[Fonte 1](https://alistair.cockburn.us/hexagonal-architecture). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 O artigo de Alistair Cockburn discute um problema recorrente no desenvolvimento de software: a mistura entre regras de negócio e detalhes de interface, banco de dados e integrações externas. Quando a aplicação passa a depender diretamente dessas tecnologias, o sistema fica mais difícil de testar, mais rígido para evoluir e mais sensível a mudanças no ambiente. A tese central do texto é que a aplicação deve ser desenhada a partir de uma separação nítida entre o que está dentro do núcleo de negócio e o que está fora dele. Para isso, Cockburn propõe a arquitetura hexagonal, também chamada de ports and adapters, em que o núcleo conversa com o exterior por contratos estáveis, sem conhecer diretamente a tecnologia concreta usada em cada lado.

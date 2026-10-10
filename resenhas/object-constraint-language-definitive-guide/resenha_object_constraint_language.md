@@ -1,7 +1,12 @@
 # Resenha: Object Constraint Language (OCL): a Definitive Guide (Cabot e Gogolla)
+
 OCL como complemento textual para especificar modelos UML com precisão e apoiar engenharia dirigida por modelos
 
-**Referência:** CABOT, Jordi; GOGOLLA, Martin. **Object Constraint Language (OCL): a Definitive Guide**. [S. l.]: material acadêmico em PDF, 2012. Material consultado a partir do PDF fornecido pelo usuário.
+## Referência
+
+CABOT, Jordi; GOGOLLA, Martin. **Object Constraint Language (OCL): A Definitive Guide**. In: BERNARDO, Marco; CORTELLESSA, Vittorio; PIERANTONIO, Alfonso (eds.). *Formal Methods for Model-Driven Engineering*. Berlin, Heidelberg: Springer, 2012. LNCS, v. 7320, p. 58-90. DOI: [10.1007/978-3-642-30982-3_3](https://doi.org/10.1007/978-3-642-30982-3_3).
+
+[Fonte 1](https://link.springer.com/chapter/10.1007/978-3-642-30982-3_3) | [Fonte 2](https://www.db.informatik.uni-bremen.de/publications/Cabot_2012_SFM.pdf). Referências conferidas em 10 out. 2026.
 
 ## 1. Introdução
 O texto de Jordi Cabot e Martin Gogolla apresenta a Object Constraint Language como uma resposta a uma limitação recorrente dos modelos gráficos: diagramas UML são úteis para representar estrutura, classes, associações e multiplicidades, mas não conseguem expressar todos os detalhes semânticos de um domínio. A tese central do capítulo é que OCL complementa esses modelos com uma linguagem textual, tipada, declarativa e livre de efeitos colaterais, capaz de registrar invariantes, consultas, regras derivadas e contratos de operações. Assim, o modelo deixa de ser apenas um desenho compreensível visualmente e passa a carregar restrições verificáveis sobre o comportamento esperado do sistema.
@@ -16,7 +21,7 @@ O primeiro argumento do texto é que linguagens gráficas precisam limitar sua e
 Os autores mostram que OCL não serve apenas para escrever invariantes. A linguagem também pode definir valores iniciais de propriedades, regras de derivação, operações de consulta e contratos com precondições e pós-condições. Isso amplia seu uso porque diferentes aspectos do modelo podem ser especificados com o mesmo vocabulário. Um invariante verifica se todo objeto respeita uma condição; uma regra derivada explica como um valor deve ser calculado; e uma pós-condição descreve o estado esperado após uma operação. O resultado é uma documentação mais precisa e mais próxima da lógica real do sistema.
 
 ### 2.3 Sistema de tipos, coleções e navegação
-Uma parte relevante do capítulo é dedicada ao sistema de tipos de OCL. A linguagem trabalha com tipos básicos, classes do modelo, enumerações, tuplas e coleções como Set, Bag, Sequence e OrderedSet. Essa diferenciação é importante porque ordem e repetição alteram o significado de uma expressão. O texto também explica a navegação por associações, a presença de null e a lógica de três valores, elementos que tornam a linguagem mais expressiva, mas também mais exigente. Na prática, escrever boas expressões OCL demanda entender tanto o modelo UML quanto as regras formais de avaliação da linguagem.
+Uma parte relevante do capítulo é dedicada ao sistema de tipos de OCL. A linguagem trabalha com tipos básicos, classes do modelo, enumerações, tuplas e coleções como Set, Bag, Sequence e OrderedSet. Essa diferenciação é importante porque ordem e repetição alteram o significado de uma expressão. O texto também explica a navegação por associações, a distinção entre `null` e `invalid`, além dos valores booleanos, elementos que tornam a linguagem mais expressiva, mas também mais exigente. Na prática, escrever boas expressões OCL demanda entender tanto o modelo UML quanto as regras formais de avaliação da linguagem.
 
 ### 2.4 Ferramentas, validação e geração de código
 O capítulo apresenta um panorama de ferramentas para parsing, integração com UML, validação e verificação. Ambientes como MDT/OCL, Dresden OCL, Papyrus, MagicDraw e USE mostram que OCL pode ser analisada, executada contra estados de objetos e usada para detectar modelos super-restritos, sub-restritos ou inconsistentes. Os autores também discutem geração de código a partir de restrições, seja em triggers de banco de dados, seja em verificações dentro de métodos. Esse ponto é prático: uma restrição escrita no modelo só produz valor completo quando pode orientar testes, validações ou código executável.
@@ -31,3 +36,8 @@ Em um projeto real, OCL poderia funcionar como camada de especificação entre a
 
 ## 4. Conclusão
 A principal contribuição do texto é mostrar que modelos visuais precisam de uma linguagem complementar para alcançar precisão sem perder clareza. OCL ocupa esse papel ao permitir que regras formais sejam associadas a modelos UML, tornando explícitas restrições, derivações, consultas e contratos. O capítulo também é valioso por não limitar a discussão à sintaxe: ele relaciona a linguagem a ferramentas, validação, geração de código e desafios de adoção. Como aprendizado, fica a ideia de que OCL é mais útil quando usada de forma seletiva e disciplinada, documentando regras críticas que precisam ser compreendidas, verificadas e preservadas durante a evolução do software.
+
+
+## Nota de revisão técnica
+
+A distinção entre `null` e `invalid` foi conferida também na [especificação OCL 2.4 da OMG](https://www.omg.org/spec/OCL/2.4/PDF), seções 7.4.10, 11.3.2 e 11.3.3. A versão e a ferramenta precisam ser verificadas ao aplicar as restrições.
